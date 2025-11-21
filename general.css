@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+nav {
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+   
+
+    max-width: 1000px;
+    background-color: red;
+    padding: 50px;
+    border-radius: 0 0 20px 20px;
+
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 30px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    transition: 300ms ease;
+}
+
+.nav-container a:hover {
+    background-color: blueviolet;
+}
